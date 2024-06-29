@@ -1,0 +1,82 @@
+.task-manager {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task-manager__title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.task-manager__filters {
+  margin-bottom: 10px;
+}
+
+.task-manager__filter {
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.task-manager__filter.active {
+  background-color: #0056b3;
+}
+
+.task-input {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.task-input__field {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.task-input__button {
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list__item {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.task-list__item.completed {
+  opacity: 0.6;
+}
+
+.task-list__text {
+  flex: 1;
+  cursor: pointer;
+}
+
+.task-list__delete {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 5px;
+}
